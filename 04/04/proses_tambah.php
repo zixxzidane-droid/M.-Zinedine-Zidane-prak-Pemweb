@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $npm = $_POST['npm'] ?? '';
     $nama = $_POST['nama'] ?? '';
     $program_studi = $_POST['program_studi'] ?? '';
-    $angkatan = $_POST['tahun'] ?? '';
+    $angkatan = $_POST['angkatan'] ?? '';
     $email = $_POST['email'] ?? '';
     
 
